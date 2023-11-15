@@ -165,3 +165,27 @@ print(h[0])
 print(h[1])
 print(h[-1])
 print(h[-2])
+
+i = h.upper()
+print(i)
+
+j = 'PROGRRAM'
+k = j.lower()
+print(k)
+
+print(j.count('R'))
+
+print(j.isalpha())
+
+#List
+print(['list', 'brown'] + [20, 30] + [30.0, 5.0])
+print(['hello', 'hi']*3)
+
+l = ['trek', 'redline', 'specialized']
+l.append('honda')
+l.insert(1, 'BROWN')
+#l.remove()
+#l.reverse()
+#l.sort()
+print(l)
+#m = l.pop()
