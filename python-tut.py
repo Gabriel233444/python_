@@ -220,12 +220,7 @@ i = 0
 num = 1
 while i < 10 and num > 0:
     num = eval(input('Enter a number: '))"""
-    
-#String Concatination
-print('AB' + 'CD')
-print('A' + '7' + 'B')
-print('a'+' '+'b')
-    
+
 """s = ''
 for i in range(10):
     t = input('Enter a letter: ')
@@ -233,11 +228,18 @@ for i in range(10):
         s = s + t
 print(s)"""
 
+#String Methods
+
+#Concatination
+print('AB' + 'CD')
+print('A' + '7' + 'B')
+print('a'+' '+'b')
 print('Paul is a man ' + 'Obi is a boy ' + 'The box is big')
 
+#we can also use the mutiline comment to specify multi line strings
 u = """This is a multy line comment, and it can also be used to 
     write bunch of text in form of a paragraph"""
-print(u)
+print(u + 'Programming')
 
 #string repitition
 print('HH' * 4)

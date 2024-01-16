@@ -155,16 +155,21 @@ while g < 20:
     print('Hi')
     g = g + 1
     
-#String
+#String methods
+
+#Concatination
 print('Hello ' + 'World')
 
+#Repitition
 print('Hi ' * 5)
 
+#indexing
 h = 'Programming'
 print(h[0])
 print(h[1])
 print(h[-1])
 print(h[-2])
+
 
 i = h.upper()
 print(i)
